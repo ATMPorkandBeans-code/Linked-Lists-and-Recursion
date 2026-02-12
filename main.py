@@ -25,3 +25,13 @@ if __name__ == "__main__":
 
 
 # 
+
+list = LinkedList()
+list.insert_at_front(8)
+list.insert_at_front(9)
+list.insert_at_front(2)
+list.insert_at_front(2)
+list.display()
+print(list.recursive_sum())
+print(list.recursive_reverse())
+print(list.recursive_search(8))
